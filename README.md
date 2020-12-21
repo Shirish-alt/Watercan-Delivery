@@ -1,2 +1,2 @@
 
-![myimage-alt-tag](E:\heic2007a.jpg)
+![myimage-alt-tag](C:\Users\Administrator\Pictures\Screenshots\abc.png)
