@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ClientDelivery</string>
+    <string name="auth_failed">auth_failed</string>
+</resources>

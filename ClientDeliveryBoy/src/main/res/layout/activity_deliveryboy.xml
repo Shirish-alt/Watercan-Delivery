@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Deliveryboy">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:background="#F3F2F2"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="80dp"
+        android:id="@+id/barcode"
+        ></ImageView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Scanner"
+        android:background="@drawable/btn"
+        android:id="@+id/scanner">
+
+    </Button>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/text_20"
+        android:layout_height="220dp">
+        <TextView
+            android:id="@+id/info"
+            android:textSize="@dimen/text_20"
+            android:textStyle="bold"
+            android:textColor="#416F0D"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit"
+        android:background="@drawable/btn"
+        android:text="Submit"
+        android:textSize="@dimen/text_20"
+        android:layout_margin="@dimen/text_20"></Button>
+
+</LinearLayout>
